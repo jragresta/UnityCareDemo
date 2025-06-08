@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>ChronicCare_Intake_Flow</members>
+    <members>ChronicCare_Eligibility_Flow</members>
+    <members>ChronicCare_CarePlan_Enrollment_Flow</members>
+    <name>Flow</name>
+  </types>
+  <types>
+    <members>ChronicCare_Intake_OS</members>
+    <members>ChronicCare_Eligibility_OS</members>
+    <members>ChronicCare_SDOH_OS</members>
+    <members>ChronicCare_Program_Assessment_OS</members>
+    <members>ChronicCare_CreateCarePlan_OS</members>
+    <name>OmniScript</name>
+  </types>
+  <types>
+    <members>Social_Determinants__c</members>
+    <name>CustomObject</name>
+  </types>
+  <types>
+    <members>ChronicCareIntake_DemoAccess</members>
+    <name>PermissionSet</name>
+  </types>
+  <types>
+    <members>HLS_Account_Patient_Console</members>
+    <members>Health_Cloud_Lightning_Console_UtilityBar</members>
+    <name>FlexiPage</name>
+  </types>
+  <version>63.0</version>
+</Package>
