@@ -1,0 +1,7 @@
+# Salesforce & SFDX
+.sfdx/
+node_modules/
+.vscode/
+# Mac / Windows
+.DS_Store
+Thumbs.db
