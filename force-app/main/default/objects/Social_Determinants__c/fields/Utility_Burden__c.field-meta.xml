@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Utility_Burden__c</fullName>
+    <label>Utility Burden</label>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+        <value><fullName>Low</fullName><default>false</default></value>
+        <value><fullName>Medium</fullName><default>false</default></value>
+        <value><fullName>High</fullName><default>false</default></value>
+            <sorted>false</sorted>
+        </valueSetDefinition>
+        <valueSetType>Defined</valueSetType>
+    </valueSet>
+</CustomField>

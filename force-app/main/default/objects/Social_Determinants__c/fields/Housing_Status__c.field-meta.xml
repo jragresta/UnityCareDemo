@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Housing_Status__c</fullName>
+    <label>Housing Status</label>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+        <value><fullName>Stable</fullName><default>false</default></value>
+        <value><fullName>Unstable</fullName><default>false</default></value>
+        <value><fullName>Transitional</fullName><default>false</default></value>
+            <sorted>false</sorted>
+        </valueSetDefinition>
+        <valueSetType>Defined</valueSetType>
+    </valueSet>
+</CustomField>
