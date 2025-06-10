@@ -1,4 +1,4 @@
-#Prerequisites for Using:
+# Prerequisites for Using:
 
 1. Salesforce CLI (SFDX) installed and authenticated to both your source (Dev) and target (Demo) orgs
 
@@ -6,7 +6,7 @@
 
 3. Node.js and Git installed locally
 
-##To clone this repo:
+## To clone this repo:
 use:
 ```bash
 git clone  https://github.com/jragresta/UnityCareDemo.git
@@ -17,12 +17,12 @@ or if GitHub CLI is installed:
 gh repo clone jragresta/UnityCareDemo
 ```
 
-##Next Authorize your target org
+## Next Authorize your target org
 ```bash
 # Authenticate Dev org if not already done
 sf org authorize --alias UnityCareDemo
 ```
-##Deploy items listed in manifest to authorized org:
+## Deploy items listed in manifest to authorized org:
 
 ```bash
 # Deploy contents listed in manifest to authorized org
