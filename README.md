@@ -1,3 +1,37 @@
+#Prerequisites for Using:
+
+1. Salesforce CLI (SFDX) installed and authenticated to both your source (Dev) and target (Demo) orgs
+
+2. VS Code with Salesforce Extensions
+
+3. Node.js and Git installed locally
+
+##To clone this repo:
+use:
+```bash
+git clone  https://github.com/jragresta/UnityCareDemo.git
+```
+
+or if GitHub CLI is installed:
+```bash
+gh repo clone jragresta/UnityCareDemo
+```
+
+##Next Authorize your target org
+```bash
+# Authenticate Dev org if not already done
+sf org authorize --alias UnityCareDemo
+```
+##Deploy items listed in manifest to authorized org:
+
+```bash
+# Deploy contents listed in manifest to authorized org
+sf project deploy start --manifest manifest/package.xml
+```
+
+Contents for the UnityCare Demo will now be deployed in the connected org.
+
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.

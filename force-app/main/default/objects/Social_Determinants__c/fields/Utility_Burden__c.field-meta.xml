@@ -5,9 +5,18 @@
     <type>Picklist</type>
     <valueSet>
         <valueSetDefinition>
-        <value><fullName>Low</fullName><default>false</default></value>
-        <value><fullName>Medium</fullName><default>false</default></value>
-        <value><fullName>High</fullName><default>false</default></value>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+            </value>
             <sorted>false</sorted>
         </valueSetDefinition>
         <valueSetType>Defined</valueSetType>
